@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './assets/styles/App.css';
-import { Container, Row, Col, Card, CardBody, CardHeader } from 'reactstrap';
+import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap';
+import Typewriter from 'typewriter-effect/dist/core';
 import avatar1 from "./assets/img/avatars/myAvatar_1.png";
 import avatar2 from "./assets/img/avatars/myAvatar_2.png";
 import avatar3 from "./assets/img/avatars/myAvatar_3.png";
 import avatar4 from "./assets/img/avatars/myAvatar_4.png";
-import reactIcon from "./assets/img/icons/react.png";
-import javaIcon from "./assets/img/icons/java.png";
-import jsIcon from "./assets/img/icons/js.png";
 import androidIcon from "./assets/img/icons/android.png";
-import htmlIcon from "./assets/img/icons/html.png";
-import gitIcon from "./assets/img/icons/git.png";
-import firebaseIcon from "./assets/img/icons/firebase.png";
-import php from "./assets/img/icons/php.png";
 import cssIcon from "./assets/img/icons/css.png";
 import facebookIcon from "./assets/img/icons/facebook.png";
-import twitterIcon from "./assets/img/icons/twitter.png";
+import firebaseIcon from "./assets/img/icons/firebase.png";
+import gitIcon from "./assets/img/icons/git.png";
+import htmlIcon from "./assets/img/icons/html.png";
+import jsIcon from "./assets/img/icons/js.png";
 import linkedinIcon from "./assets/img/icons/linkedin.png";
-import WorkHistory from './components/WorkHistory';
+import php from "./assets/img/icons/php.png";
+import reactIcon from "./assets/img/icons/react.png";
+import twitterIcon from "./assets/img/icons/twitter.png";
+import './assets/styles/App.css';
 import FeaturedProjects from './components/FeaturedProjects';
-import Typewriter from 'typewriter-effect/dist/core';
+import WorkHistory from './components/WorkHistory';
 
 
 class App extends Component {
@@ -104,7 +102,7 @@ class App extends Component {
                     <h3 className="white-text font-weight-light mb-0">Hi,<br />I am <br />Orafu Charles</h3>
                   </div>
                   <div className="py-2">
-                    <p className="white-text fa-2x">and I&apos;m a software developer</p>
+                    <p className="white-text fa-2x">and I&apos;m a Javascript Developer</p>
                     {this.state.stacks.map((stack, index) => (<img key={index} src={stack.icon} title={stack.name} alt={`${stack.name} icon`} className={`icon-image ${this.state.activeIcon == index && 'animated bounce infinite'}`} />))}
                   </div>
                 </Col>

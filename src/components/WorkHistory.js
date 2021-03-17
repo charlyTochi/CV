@@ -32,8 +32,7 @@ const WorkHistory = (props) => {
         {
             title: "EFULL TECHNOLOGY NIGERIA LIMITED",
             subtitle: "POSITION: FULL-TIME REACT DEVELOPER",
-            desc: `Built a school mobile application using React Native were parent can login and see all their school information, implemented a payment sysetm that helps parents make payment for their children textbooks, school fees etc. On this app, parents can also chat with teachers tied to their children. lt
-            this application using JAVA and also worked with the device’s SDK to target some device specific
+            desc: `Built a school mobile application using React Native were parent can login and see all their school information, implemented a payment sysetm that helps parents make payment for their children textbooks, school fees etc. On this app, parents can also chat with teachers tied to their children. I  also worked with the device’s SDK to target some device specific
             functions like Using the thermal printer, Smart card reader, Camera for QR code scanning, and
             so on.`,
             duration: "AUGUST 2019 - Present",

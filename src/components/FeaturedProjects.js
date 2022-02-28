@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import ReactCardCarousel from 'react-card-carousel';
 import boilerPlate from "../assets/img/projects/google-materialdesign.png"
 import autocoins from "../assets/img/projects/autocoins.png"
+import pickit from "../assets/img/pickit.png"
+import eparent from "../assets/img/eparent.png"
+import eschool from "../assets/img/eschool.png"
 import auto from "../assets/img/projects/auto.png"
 import wallet from "../assets/img/projects/wallet.png"
 import gemaily from "../assets/img/projects/gemaily.png"
@@ -10,29 +13,19 @@ import freeresell from "../assets/img/projects/freeresell.png"
 const FeaturedProjects = (props) => {
     const [projects] = useState([
         {
-            title: "Autocoins",
-            photoUrl: autocoins,
-            link: "https://autocoins.ng/"
+            title: "Efu-Parent",
+            photoUrl: eparent,
+            link: "https://play.google.com/store/apps/details?id=com.e_parent"
         },
         {
-            title: "Wallet",
-            photoUrl: wallet,
-            link: "https://wallet.justfonez.net/"
+            title: "Pickit",
+            photoUrl: pickit,
+            link: "https://play.google.com/store/apps/details?id=com.pick_it"
         },
         {
-            title: "Autocoins Dashboard",
-            photoUrl: auto,
-            link: "https://autocoins.ng/"
-        },
-        {
-            title: "Gemaily",
-            photoUrl: gemaily,
-            link: "http://gemaily.com/index.php"
-        }, 
-        {
-            title: "Freeresell",
-            photoUrl: freeresell,
-            link: "https://freeresell.com/"
+            title: "Efu-School",
+            photoUrl: eschool,
+            link: "https://school.efulltech.com.ng/"
         }
     ])
 

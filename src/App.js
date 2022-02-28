@@ -30,7 +30,7 @@ class App extends Component {
         {
           name: "React JS & Native",
           icon: reactIcon,
-          desc: "A friend introduced  this javascript frameworks to me and since then it has really made my programming life easier"
+          desc: "A friend introduced  this Javascript frameworks to me and since then it has really made my programming life easier"
         },
         
         {
@@ -63,11 +63,7 @@ class App extends Component {
           icon: firebaseIcon,
           desc: "I love and mostly recommend this cloud service  because of its ease-of-use and efficiency"
         },
-        {
-          name: "PHP",
-          icon: php,
-          desc: "Back then as a beginner, Learning the procedural way of writing PHP massively improved my thinking ability."
-        }
+       
       ]
     }
   }
@@ -102,7 +98,7 @@ class App extends Component {
                     <h3 className="white-text font-weight-light mb-0">Hi,<br />I am <br />Orafu Charles</h3>
                   </div>
                   <div className="py-2">
-                    <p className="white-text fa-2x">and I&apos;m a Javascript Developer</p>
+                    <p className="white-text fa-2x">and I&apos;m a  React Native Developer</p>
                     {this.state.stacks.map((stack, index) => (<img key={index} src={stack.icon} title={stack.name} alt={`${stack.name} icon`} className={`icon-image ${this.state.activeIcon == index && 'animated bounce infinite'}`} />))}
                   </div>
                 </Col>
